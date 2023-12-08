@@ -17,7 +17,10 @@ For Cloud Save to properly work you need to set up some sort of an authenticatio
 
 using Unity.Services.Authentication;
 
+using Unity.Services.Core;
+
 using Unity.Services.CloudSave;
+
 
     async void Start()
     {
