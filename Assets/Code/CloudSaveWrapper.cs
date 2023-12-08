@@ -16,7 +16,7 @@
     await AuthenticationService.Instance.SignInAnonymouslyAsync();
 
     // SAVE         if you save with the same key then it just gets overwritten
-    await CloudSaveWrapper.Save("greetingKey", "Hello World");
+    await CloudSaveWrapper.Save<string>("greetingKey", "Hello World");
     // for example if you were to
     // SAVE("randomKey","123"); then SAVE("randomKey","321");
     // if you LOAD("randomKey"); then you'd see "321"

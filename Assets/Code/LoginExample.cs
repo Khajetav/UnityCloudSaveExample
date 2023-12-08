@@ -17,7 +17,7 @@ public class LoginExample : MonoBehaviour
     // this is where the debug data will be shown
     [SerializeField]
     private TextMeshProUGUI textStatus;
-    // you can write smth here and it'll get saved in the cloud
+    // you can write something here and it'll get saved in the cloud
     [SerializeField]
     private TextMeshProUGUI textInput;
     // overwrites this field when you load data
